@@ -3,8 +3,8 @@
    Troque os valores marcados com TODO pelos dados reais.
    ========================================================= */
 window.CONFIG = {
-  name1: "Sidney",            // TODO
-  name2: "Nome",              // TODO: nome do(a) noivo(a)
+  name1: "Vitor",
+  name2: "Julia",
   dateISO: "2027-06-26T19:00:00-03:00", // TODO: confirmar horário
   church: "Primeira Igreja Presbiteriana de Guarapari",
   address: "Centro, Guarapari - ES",

@@ -46,13 +46,13 @@ Os presentes não são produtos de verdade, são "cotas" com nome bonito. O conv
 
 ## Hospedagem do site
 
-GitHub Pages (grátis, já que o projeto está no GitHub) ou Vercel/Netlify. Dá para usar um domínio próprio, por exemplo `sidneyenome.com.br` (cerca de R$ 40/ano no registro.br).
+Firebase Hosting (grátis no plano Spark), publicado automaticamente pelo GitHub a cada alteração. Veja o passo a passo no `README.md`. Dá para usar um domínio próprio, por exemplo `vitorejulia.com.br` (cerca de R$ 40/ano no registro.br).
 
 **Convite personalizado:** o site aceita `?para=Família Souza` no link, e o envelope mostra "Um convite para Família Souza". Dá para mandar um link diferente para cada família.
 
 ## O que preciso de vocês
 
-- [ ] Nomes como querem que apareçam (e iniciais para o selo)
+- [x] Nomes: Vitor & Julia
 - [ ] Horário da cerimônia
 - [ ] 8 a 15 fotos para o carrossel (de preferência horizontais, boa resolução) e uma foto da igreja
 - [ ] Legenda curta para cada foto (opcional)
