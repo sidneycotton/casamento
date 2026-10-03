@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nosso Casamento</title>
+<meta name="description" content="Convite de casamento · 26 de junho de 2027 · Primeira Igreja Presbiteriana de Guarapari">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-sealed">
+
+<!-- Ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="M3 11l18-8-7 18-2-8-9-2z"/></symbol>
+    <symbol id="i-boat" viewBox="0 0 24 24"><path d="M3 16h18l-2.5 4h-13L3 16zM12 3v13M12 4l6 9h-6"/></symbol>
+    <symbol id="i-dinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5.5"/><path d="M3 4v16M21 4c-1.6 2-1.6 6 0 8v8"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><path d="M4 9h13v4a5 5 0 01-5 5H9a5 5 0 01-5-5V9zM17 10h1.5a2.5 2.5 0 010 5H17M8 3.5v2.5M12 3.5v2.5"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5.5 9.5V20h13V9.5M10 20v-5.5h4V20"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 19V6M3 14h18v5M21 14a3.5 3.5 0 00-3.5-3.5H11V14"/><circle cx="7" cy="11.5" r="1.6"/></symbol>
+    <symbol id="i-pan" viewBox="0 0 24 24"><path d="M3 10h14v4.5a4.5 4.5 0 01-4.5 4.5h-5A4.5 4.5 0 013 14.5V10zM17 12h4.5M7 6.5c0-1 1-1.3 1-2.5M11 6.5c0-1 1-1.3 1-2.5"/></symbol>
+    <symbol id="i-glass" viewBox="0 0 24 24"><path d="M7 3h10l-.8 6.5a4.2 4.2 0 01-8.4 0L7 3zM12 14v7M8.5 21h7"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15zM5 19l8.5-8.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.1 4.1 0 0112 7.4a4.1 4.1 0 017.5 2.4C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><path d="M4.5 11h15v9h-15zM3.5 7.5h17V11h-17zM12 7.5V20M12 7.5c-2.2 0-4.2-.8-4.2-2.2S10 3.3 12 7.5c2-4.2 4.2-3.6 4.2-2.2S14.2 7.5 12 7.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="1.5"/><path d="M10.5 8.5v5l4-2.5-4-2.5zM8 20.5h8"/></symbol>
+    <symbol id="i-pizza" viewBox="0 0 24 24"><path d="M4 6.5c5-3 11-3 16 0L12 21 4 6.5z"/><circle cx="10" cy="10" r="1"/><circle cx="14" cy="12.5" r="1"/><circle cx="11.5" cy="15.5" r=".9"/></symbol>
+    <symbol id="i-robot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M6.5 8.5h11"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2.5l2.2 11h10.6l2-8H6.7"/><circle cx="9.5" cy="19.5" r="1.4"/><circle cx="17" cy="19.5" r="1.4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.3a6.5 6.5 0 0113 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.7" r="2.3"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="1.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M7 12V6.5a1.5 1.5 0 013 0V11M10 10V4.5a1.5 1.5 0 013 0V11M13 10.5V6a1.5 1.5 0 013 0v6M16 11.5V9.5a1.5 1.5 0 013 0V14a7 7 0 01-7 7h-.5a7 7 0 01-6-3.4L4 15a1.5 1.5 0 012.6-1.5L7 14"/></symbol>
+    <symbol id="i-branch" viewBox="0 0 120 40"><path d="M4 30C30 26 60 22 116 10" /><path d="M24 27c-4-8 2-14 8-15-1 7-3 12-8 15zM24 27c7 3 13 1 16-4-7-2-12-1-16 4zM48 23c-3-8 3-13 9-14-1 7-4 11-9 14zM48 23c7 3 13 1 16-5-7-1-12 0-16 5zM72 18c-2-8 4-12 10-12-1 7-5 10-10 12zM72 18c7 2 12 0 15-6-7 0-12 1-15 6zM96 13c-1-6 3-10 9-10-1 5-4 8-9 10z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ ENVELOPE (abertura) ============ -->
+<div class="intro" id="intro">
+  <p class="intro__eyebrow">Um convite para</p>
+  <p class="intro__to" data-bind="guestLine">você e sua família</p>
+
+  <button class="envelope" id="envelope" type="button" aria-label="Abrir o convite">
+    <span class="envelope__back"></span>
+    <span class="letter">
+      <span class="letter__small">Com a bênção de Deus e de nossas famílias</span>
+      <span class="letter__names"><span data-bind="name1">Sidney</span> <i>&amp;</i> <span data-bind="name2">Nome</span></span>
+      <span class="letter__date">26 · 06 · 2027</span>
+    </span>
+    <span class="envelope__pocket"></span>
+    <span class="envelope__flap"></span>
+    <span class="seal" aria-hidden="true"><span data-bind="monogram">S&amp;N</span></span>
+  </button>
+
+  <p class="intro__hint">Toque no selo para abrir</p>
+</div>
+
+<!-- ============ SITE ============ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#inicio" data-bind="monogram">S&amp;N</a>
+  <nav class="nav__links" aria-label="Seções">
+    <a href="#cerimonia">Cerimônia</a>
+    <a href="#presenca">Presença</a>
+    <a href="#presentes">Presentes</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+  <button class="nav__cart" type="button" data-open-cart aria-label="Abrir carrinho de presentes">
+    <svg class="ico"><use href="#i-gift"/></svg><span class="cart-count" data-cart-count>0</span>
+  </button>
+</header>
+
+<main id="inicio">
+
+  <!-- Carrossel -->
+  <section class="hero" aria-roledescription="carrossel" aria-label="Nossas fotos">
+    <div class="carousel" id="carousel">
+      <div class="carousel__track" id="track"></div>
+      <div class="hero__veil"></div>
+      <div class="hero__text">
+        <p class="hero__eyebrow">Vamos nos casar</p>
+        <h1 class="hero__names"><span data-bind="name1">Sidney</span><i>&amp;</i><span data-bind="name2">Nome</span></h1>
+        <p class="hero__date">Sábado · 26 de junho de 2027 · Guarapari</p>
+      </div>
+      <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Foto anterior">‹</button>
+      <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Próxima foto">›</button>
+      <div class="carousel__dots" id="dots" role="tablist" aria-label="Escolher foto"></div>
+    </div>
+  </section>
+
+  <!-- Contagem -->
+  <section class="countdown wrap" aria-label="Contagem regressiva">
+    <svg class="branch" aria-hidden="true"><use href="#i-branch"/></svg>
+    <p class="eyebrow">Faltam</p>
+    <div class="countdown__grid">
+      <div><b id="cd-d">000</b><span>dias</span></div>
+      <div><b id="cd-h">00</b><span>horas</span></div>
+      <div><b id="cd-m">00</b><span>minutos</span></div>
+      <div><b id="cd-s">00</b><span>segundos</span></div>
+    </div>
+    <p class="countdown__verse">“De modo que já não são mais dois, porém uma só carne. Portanto, o que Deus ajuntou não o separe o homem.” <cite>Mateus 19:6</cite></p>
+  </section>
+
+  <!-- Cerimônia -->
+  <section class="section section--linen" id="cerimonia">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow">O grande dia</p>
+        <h2>Cerimônia</h2>
+      </header>
+
+      <div class="ceremony">
+        <div class="ceremony__card">
+          <ul class="facts">
+            <li><svg class="ico"><use href="#i-cal"/></svg><div><b>Sábado, 26 de junho de 2027</b><span>Anote na agenda</span></div></li>
+            <li><svg class="ico"><use href="#i-clock"/></svg><div><b>19h00</b><span>Horário a confirmar · chegue com 20 min de antecedência</span></div></li>
+            <li><svg class="ico"><use href="#i-pin"/></svg><div><b>Primeira Igreja Presbiteriana de Guarapari</b><span>Centro · Guarapari, ES</span></div></li>
+            <li><svg class="ico"><use href="#i-hand"/></svg><div><b>Cumprimentos no local</b><span>Logo após a cerimônia, os noivos receberão os cumprimentos na própria igreja.</span></div></li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn" id="btn-maps" target="_blank" rel="noopener" href="#">Abrir no Google Maps</a>
+            <a class="btn btn--ghost" id="btn-waze" target="_blank" rel="noopener" href="#">Waze</a>
+            <a class="btn btn--ghost" id="btn-cal" target="_blank" rel="noopener" href="#">Salvar na agenda</a>
+          </div>
+        </div>
+
+        <figure class="ceremony__photo">
+          <div class="ph ph--tall"><svg aria-hidden="true"><use href="#i-branch"/></svg><span>Foto da igreja</span></div>
+        </figure>
+      </div>
+
+      <div class="dress">
+        <div>
+          <p class="eyebrow">Traje</p>
+          <h3>Social</h3>
+          <p>Escolha o que te faz sentir bem. Pedimos apenas que o branco fique para a noiva. Os tons de verde-oliva estão reservados para padrinhos e madrinhas.</p>
+        </div>
+        <ul class="swatches" aria-label="Paleta do casamento">
+          <li style="--c:#3F4728"><span>Oliva escuro</span></li>
+          <li style="--c:#6B7546"><span>Oliva</span></li>
+          <li style="--c:#A6A783"><span>Sálvia</span></li>
+          <li style="--c:#D9CBB0"><span>Areia</span></li>
+          <li style="--c:#EFE6D4"><span>Bege</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Presença -->
+  <section class="section" id="presenca">
+    <div class="wrap wrap--narrow">
+      <header class="section__head">
+        <p class="eyebrow">Confirme sua presença</p>
+        <h2>Você vem?</h2>
+        <p class="lede">Pedimos que confirme até <b>26 de maio de 2027</b>. O convite é nominal, por isso informe o nome de todos que virão.</p>
+      </header>
+      <form class="rsvp" id="rsvp" novalidate>
+        <div class="field">
+          <label for="rsvp-name">Seu nome completo</label>
+          <input id="rsvp-name" name="name" required autocomplete="name" placeholder="Ex.: Maria da Silva">
+        </div>
+        <fieldset class="field field--choice">
+          <legend>Você vai?</legend>
+          <label><input type="radio" name="going" id="rsvp-yes" value="sim" checked> Sim, estarei lá</label>
+          <label><input type="radio" name="going" id="rsvp-no" value="nao"> Não poderei ir</label>
+        </fieldset>
+        <div class="field">
+          <label for="rsvp-guests">Quem vem com você? <small>(nomes, se houver)</small></label>
+          <input id="rsvp-guests" name="guests" placeholder="Ex.: João da Silva, Ana da Silva">
+        </div>
+        <div class="field">
+          <label for="rsvp-msg">Um recado para os noivos <small>(opcional)</small></label>
+          <textarea id="rsvp-msg" name="msg" rows="3"></textarea>
+        </div>
+        <button class="btn btn--wide" type="submit">Confirmar presença</button>
+        <div class="rsvp__done" id="rsvp-done" hidden>
+          <p><b>Quase lá!</b> Toque abaixo para enviar sua confirmação pelo WhatsApp dos noivos.</p>
+          <a class="btn" id="rsvp-wa" target="_blank" rel="noopener" href="#">Enviar pelo WhatsApp</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Presentes -->
+  <section class="section section--olive" id="presentes">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow">Lista de presentes</p>
+        <h2>Presenteie os noivos</h2>
+        <p class="lede">Sua presença já é o nosso maior presente. Se quiser nos mimar, escolha um dos itens abaixo: o valor chega até nós por PIX e será usado para começar a nossa vida juntos.</p>
+      </header>
+
+      <div class="shop-bar">
+        <div class="chips" role="group" aria-label="Filtrar presentes" id="chips">
+          <button type="button" class="chip is-on" data-cat="todos">Todos</button>
+          <button type="button" class="chip" data-cat="lua">Lua de mel</button>
+          <button type="button" class="chip" data-cat="casa">Casa nova</button>
+          <button type="button" class="chip" data-cat="carinho">Com carinho</button>
+        </div>
+        <label class="sort">
+          <span>Ordenar</span>
+          <select id="sort">
+            <option value="sug">Sugeridos</option>
+            <option value="asc">Menor valor</option>
+            <option value="desc">Maior valor</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="gifts" id="gifts"></div>
+
+      <div class="free-gift">
+        <div>
+          <h3>Prefere escolher o valor?</h3>
+          <p>Contribua com qualquer quantia. Toda ajuda é bem-vinda.</p>
+        </div>
+        <form class="free-gift__form" id="free-form">
+          <label for="free-val" class="sr">Valor em reais</label>
+          <span class="free-gift__cur">R$</span>
+          <input id="free-val" inputmode="decimal" placeholder="100,00">
+          <button class="btn btn--light" type="submit">Adicionar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Para quem vem de fora -->
+  <section class="section" id="dicas">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="eyebrow">Para quem vem de fora</p>
+        <h2>Guarapari</h2>
+      </header>
+      <div class="tips">
+        <article>
+          <svg class="ico"><use href="#i-plane"/></svg>
+          <h3>Como chegar</h3>
+          <p>O aeroporto mais próximo é o de Vitória (VIX), a cerca de 1 hora de carro pela Rodovia do Sol.</p>
+        </article>
+        <article>
+          <svg class="ico"><use href="#i-bed"/></svg>
+          <h3>Onde ficar</h3>
+          <p>Em breve indicaremos hotéis e pousadas próximos à igreja, no Centro e na Praia do Morro.</p>
+        </article>
+        <article>
+          <svg class="ico"><use href="#i-sun"/></svg>
+          <h3>Aproveite</h3>
+          <p>Junho é inverno, mas o sol de Guarapari costuma aparecer. Vale estender a viagem e conhecer as praias.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dúvidas -->
+  <section class="section section--linen" id="duvidas">
+    <div class="wrap wrap--narrow">
+      <header class="section__head">
+        <p class="eyebrow">Perguntas frequentes</p>
+        <h2>Dúvidas</h2>
+      </header>
+      <div class="faq">
+        <details><summary>Haverá festa depois da cerimônia?</summary><p>Os noivos receberão os cumprimentos na própria igreja, logo após a cerimônia.</p></details>
+        <details><summary>Posso levar acompanhante ou crianças?</summary><p>O convite é nominal. Confirme na seção de presença o nome de todos que estão incluídos no seu convite.</p></details>
+        <details><summary>Como funciona a lista de presentes?</summary><p>Você escolhe os presentes, informa seu nome e paga o total por PIX, pelo QR code ou pelo código copia e cola. O valor vai direto para a conta dos noivos.</p></details>
+        <details><summary>Tem estacionamento?</summary><p>Informação em breve.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <svg class="branch" aria-hidden="true"><use href="#i-branch"/></svg>
+  <p class="footer__names"><span data-bind="name1">Sidney</span> &amp; <span data-bind="name2">Nome</span></p>
+  <p>26 · 06 · 2027 · Guarapari, ES</p>
+</footer>
+
+<!-- Botão flutuante do carrinho -->
+<button class="fab" type="button" data-open-cart aria-label="Abrir carrinho de presentes">
+  <svg class="ico"><use href="#i-gift"/></svg>
+  <span>Meus presentes</span>
+  <b class="cart-count" data-cart-count>0</b>
+</button>
+
+<!-- Carrinho -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Carrinho de presentes" aria-hidden="true">
+  <header class="drawer__head">
+    <h2>Seus presentes</h2>
+    <button class="x" type="button" data-close aria-label="Fechar">×</button>
+  </header>
+  <div class="drawer__body" id="cart-items"></div>
+  <footer class="drawer__foot">
+    <div class="total"><span>Total</span><b id="cart-total">R$ 0,00</b></div>
+    <button class="btn btn--wide" id="go-checkout" type="button">Presentear com PIX</button>
+  </footer>
+</aside>
+
+<!-- Checkout -->
+<div class="modal" id="checkout" role="dialog" aria-modal="true" aria-labelledby="co-title" hidden>
+  <div class="modal__card">
+    <button class="x" type="button" data-close aria-label="Fechar">×</button>
+
+    <div class="co-step" data-step="1">
+      <p class="eyebrow">Passo 1 de 2</p>
+      <h2 id="co-title">Quem está presenteando?</h2>
+      <form id="co-form">
+        <div class="field">
+          <label for="co-name">Seu nome</label>
+          <input id="co-name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="co-msg">Deixe uma mensagem para os noivos <small>(opcional)</small></label>
+          <textarea id="co-msg" rows="3"></textarea>
+        </div>
+        <div class="total"><span>Total</span><b data-co-total>R$ 0,00</b></div>
+        <button class="btn btn--wide" type="submit">Gerar PIX</button>
+      </form>
+    </div>
+
+    <div class="co-step" data-step="2" hidden>
+      <p class="eyebrow">Passo 2 de 2</p>
+      <h2>Pague com PIX</h2>
+      <p class="muted">Abra o app do seu banco, escolha <b>PIX → Ler QR code</b> ou <b>Pix copia e cola</b>.</p>
+      <div class="pix">
+        <div class="pix__qr" id="pix-qr"></div>
+        <div class="pix__info">
+          <div class="total"><span>Valor</span><b data-co-total>R$ 0,00</b></div>
+          <label for="pix-code">Pix copia e cola</label>
+          <textarea id="pix-code" rows="4" readonly></textarea>
+          <button class="btn btn--wide" id="pix-copy" type="button">Copiar código</button>
+          <p class="muted small">Recebedor: <span data-bind="pixName"></span><br>Chave: <span data-bind="pixKey"></span></p>
+        </div>
+      </div>
+      <button class="btn btn--ghost btn--wide" id="pix-paid" type="button">Já fiz o PIX</button>
+    </div>
+
+    <div class="co-step co-thanks" data-step="3" hidden>
+      <svg class="branch" aria-hidden="true"><use href="#i-branch"/></svg>
+      <h2>Muito obrigado!</h2>
+      <p>Seu carinho significa muito para nós. Se quiser, envie o comprovante e sua mensagem pelo WhatsApp.</p>
+      <a class="btn" id="thanks-wa" target="_blank" rel="noopener" href="#">Enviar comprovante</a>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
